@@ -1,0 +1,24 @@
+schema_version = "1.0.0"
+
+id = "texture_pipeline_studio"
+version = "8.10.1"
+name = "Texture Pipeline Studio"
+tagline = "Assign PBR textures from resolution folders and swap LODs"
+maintainer = "Gihan Nirmal Maddumage <maddumagegihan51@gmail.com>"
+support = "https://github.com/maddumagegihan51/texture_pipeline_studio/issues"
+type = "add-on"
+
+tags = ["Material", "Pipeline", "Node"]
+
+blender_version_min = "4.5.0"
+
+license = [
+    "SPDX:GPL-3.0-or-later",
+]
+
+copyright = [
+    "2026 Gihan Nirmal Maddumage",
+]
+
+[permissions]
+files = "Read PBR texture images from user-selected folders on disk"
